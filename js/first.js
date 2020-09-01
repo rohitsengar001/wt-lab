@@ -13,3 +13,4 @@ function addTwoNumber()
     let sum = n1 + n2;
     document.getElementById("sum").innerHTML="sum is :"+sum;
 }
+
