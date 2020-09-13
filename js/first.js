@@ -1,3 +1,15 @@
+//types of function declaration=>
+
+//function and expression can be defined a below
+// var myfunction = function(){
+//     var message="function is running";
+//     document.getElementById("para").innerHTML=message;
+//}
+//function as a object declaration
+// var myfun=()=>{
+//     statement type here;
+// }
+
 let message="this is global variable";
 function myFunction()
 {
