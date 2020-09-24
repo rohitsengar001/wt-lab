@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calci</title>
+    <link rel="stylesheet" href="css/calci.css">
+    <script src="js/calci.js"></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="container">
+      <div class="header">Calculator</div>
+      <input type="text" class="result" id="result">
+      <div class="first-row">
+        <input type="button" name="" value="&radic;" class="global">
+        <input type="button" name="" value="(" class="global">
+        <input type="button" name="" value=")" class="global">
+        <input type="button" onclick="display('/100')" name="" value="%" class="global" id="mod">
+      </div>
+      <div class="second-row">
+        <input type="button" onclick="display(7)" name="" value="7" class="global" id="seven">
+        <input type="button" onclick="display(8)" name="" value="8" class="global" id="eight">
+        <input type="button" onclick="display(9)" name="" value="9" class="global" id="nine">
+        <input type="button" onclick="display('/')" name="" value="/" class="global" id="">
+      </div>
+      <div class="third-row">
+        <input type="button" onclick="display(4)" name="" value="4" class="global" id="four">
+        <input type="button" onclick="display(5)" name="" value="5" class="global" id="five">
+        <input type="button" onclick="display(6)" name="" value="6" class="global" id="six">
+        <input type="button" onclick="display('*')" name="" value="X" class="global">
+      </div>
+      <div class="fourth-row">
+        <input type="button" onclick="display(1)" name="" value="1" class="global" id="one">
+        <input type="button" onclick="display(2)" name="" value="2" class="global" id="two">
+        <input type="button" onclick="display(3)" name="" value="3" class="global" id="three">
+        <input type="button" onclick="display('-')" name="" value="-" class="global">
+      </div>
+      <div class="conflict">
+        <div class="left">
+          <input type="button" onclick="display(0)" name="" value="0" class=" big">
+          <input type="button" onclick="display()" name="" value="." class=" small">
+          <input type="button" onclick="clearValue()" name="" value="Del" class=" red small white-text top-margin">
+          <input type="button" onclick="calculate()" name="" value="=" class=" green white-text big top-margin">
+        </div>
+        <div class="right">
+          <input type="button" onclick="display('+')" name="" value="+" class="global grey plus" id="plus">
+        </div>
+      </div>
+    </div>
+</body>
+</html>

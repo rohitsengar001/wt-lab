@@ -1,6 +1,6 @@
 //get value by the fname text field
 function getInputValue() {
-    var num = document.getElementById("fname").value;
+    let num = document.getElementById("fname").value;
     document.getElementById("output").innerHTML = "your factorial is :" + (fact(num));
 }
 
@@ -14,6 +14,25 @@ function fact(n) {
             return n * fact(n - 1);
         }
     }
+}
+
+function displayPrimeNumber() {
+    let num = parseInt(window.prompt("enter the number of element"));
+    
+    for (let i = 2; i <= num; i++) {
+        let flag = 0;
+        for (let j = 2; j < i ; j++) {
+            if (i % j == 0) {
+                flag = 1;
+                break;
+            }
+
+        }
+        if (flag == 0) {
+            console.log(i);
+        }
+    }
+
 }
 
 //check number is prime or not
@@ -32,10 +51,10 @@ function primeNumber() {
     }
 }
 //even or odd(output show on console so open console in browser)
-function evenOrOdd(){
+function evenOrOdd() {
     let num = parseInt(prompt("enter the number please.."))
-    if (num>0) {
-        if (num%2 == 0) {
+    if (num > 0) {
+        if (num % 2 == 0) {
             window.console.log("number is even");
         } else {
             window.console.log("number is odd");
@@ -53,7 +72,7 @@ function bubbleSort() {
     }
     console.log(arr);
     for (let i = 1; i < arr.length; i++) {
-        for (let j = 0; j < arr.length - i ; j++) {
+        for (let j = 0; j < arr.length - i; j++) {
             if (arr[j] > arr[j + 1]) {
                 //swaping
                 let temp = arr[j];
@@ -64,5 +83,31 @@ function bubbleSort() {
     }
     document.getElementById("output").innerHTML = "shorted array are :" + arr;
 }
+function sumOfDigit() {
+    let sum = 0;
+    let num = parseInt(prompt("enter the number please"));
+    let cnum = num;
+    while (cnum > 0) {
+        let q = cnum / 10;
+        let r = cnum % 10;
+        sum = sum + Math.pow(10, count) * r;
+    }
+}
 
+function wishToUser() {
+    let wish = "";
+    let time = new Date().getHours();
+    console.log(time);
+    if (time < 12) {
+        wish = "Good Day";
+    }
+    else if (time>12 && time < 18) {
+        wish="Good evening"
+    }
+    else {
+        wish = "Good Night";
+    }
+    //console.log(wish);
+    document.getElementById("output").innerHTML = wish;
+}
 

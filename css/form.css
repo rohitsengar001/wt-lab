@@ -1,0 +1,55 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url("img/form_back.jpg");
+}
+
+form {
+    display: table;
+    margin:auto;
+}
+form input[type=text],[type=number],[type=email],[type=tel]{
+    width: 100%;
+    padding:12px 100px;
+    margin:8px 0px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: initial;
+    padding: 0px;
+    height: 44px;
+    width: 427px;
+    margin-top:25px 
+}
+}
+form input:hover{
+    border:2px solid black;
+    border-radius:4px;
+    
+}
+input:focus{
+   background-color: rgba(0, 0, 0, 0.829);
+   color:white;
+}
+#form{
+    border-style:outset;
+    border-color: blueviolet;
+    border-radius: 3px;
+    margin:auto;
+    width: 500px;
+    height: auto;
+    /* background-image: url("https://wallup.net/wp-content/uploads/2016/01/164682-simple-colorful-abstract-gradient-lightning-Easter-sky-748x468.jpg"); */
+    
+}
+input:invalid{
+    background-color: lightcoral;
+}
