@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kiet "kiet.dtd">
+<kiet>
+  <student>
+      <name>ROHIT</name>
+      <branch>MCA</branch>
+      <rollno>1900290140028</rollno>
+      <id>27</id>
+  </student>
+  <faculty>
+      <name>VIPIN KUMAR</name>
+      <branch>MCA</branch>
+      <id>STL16400</id>
+  </faculty>
+</kiet>

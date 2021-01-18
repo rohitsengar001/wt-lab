@@ -1,0 +1,7 @@
+<!DOCTYPE address [
+  <!ELEMENT address-book (address+)>
+  <!ELEMENT address (street,state,phone-number)>
+  <!ELEMENT street (#PCDATA)>
+  <!ELEMENT state (#PCDATA)>
+  <!ELEMENT phone-number (#PCDATA)>
+]>

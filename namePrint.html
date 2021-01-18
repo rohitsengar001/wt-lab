@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>printName</title>
+</head>
+
+<body>
+    <input type="text" id="fname" name="fname" placeholder="firstName"><br>
+    <input type="text" id="mname" name="mname" placeholder="middleName"><br>
+    <input type="text" id="lname" name="lname" placeholder="lastName"><br>
+    <button onclick="showName()">printName</button>
+    <h1 id="output"></h1>
+    <script>
+        function showName() {
+            let firstName = document.getElementById('fname').value;
+            let middleName = document.getElementById('mname').value;
+            let lastName = document.getElementById('lname').value;
+            let name = firstName + " " + middleName + " " + lastName;
+            document.getElementById('output').innerHTML="your name is :"+name;
+
+        }
+    </script>
+</body>
+
+</html>

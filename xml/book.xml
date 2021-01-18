@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book-store>
+    <book>
+        <name>programming with java</name>
+        <publisher>Pearson</publisher>
+        <author>B.dellion</author>
+        <isbn>23232323</isbn>
+        <price>2232</price>
+    </book>
+    <book>
+        <name>programming with java</name>
+        <publisher>Pearson</publisher>
+        <author>B.dellion</author>
+        <isbn>23232323</isbn>
+        <price>2232</price>
+    </book>
+</book-store>

@@ -1,0 +1,12 @@
+<!DOCTYPE kiet[
+   <!ELEMENT kiet(student,faculty)>
+   <!ELEMENT student(name,id,branch,rollno)>
+     <!ELEMENT name(#PCDATA) #REQUIRED>
+     <!ELEMENT id(#PCDATA)>
+     <!ELEMENT branch(#PCDATA)>
+     <!ELEMENT rollno(#PCDATA)>  
+   <!ELEMENT faculty(name,branch,id,salary)>
+     <!ELEMENT name(#PCDATA) #REQUIRED>
+     <!ELEMENT branch(#PCDATA)>
+     <!ELEMENT id(#PCDATA)>
+]>

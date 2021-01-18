@@ -1,0 +1,7 @@
+<!DOCTYPE book-store[
+   <!ELEMENT book(name,publisher,author,isbn)>
+   <!ELEMENT name(#PCDATA)>
+   <!ELEMENT publisher(#PCDATA)>
+   <!ELEMENT author(#PCDATA)>
+   <!ELEMENT isbn(#ID)>
+]>

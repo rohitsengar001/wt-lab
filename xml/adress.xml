@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE address-book [
+  <!ELEMENT address-book (address+)>
+  <!ELEMENT address (street,state,phone-number)>
+  <!ELEMENT street (#PCDATA)>
+  <!ELEMENT state (#PCDATA)>
+  <!ELEMENT phone-number (#PCDATA)>
+]>
+<address-book>
+   <address>
+       <street><name></name></street>
+       <state>ararr</state>
+       <phone-number>arrar</phone-number>
+   </address>
+</address-book>
